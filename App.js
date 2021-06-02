@@ -6,7 +6,12 @@ import CarItem from './app/components/CarItem';
 const App = () => {
   return (
     <View style={styles.container}>
-      <CarItem />
+      <CarItem
+        name='Modex X'
+        tagline='Starting from $99,500'
+        image={require('./app/assets/images/Model3.jpeg')}
+        taglineCTA='Touchless Delivery'
+      />
       <StatusBar style='auto' />
     </View>
   );
